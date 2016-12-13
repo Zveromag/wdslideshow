@@ -6,8 +6,6 @@ This plugin is a slide show that can be used in any project.
 
 ##Initialization
 
-This plugin is a slide show that can be used in any project.
-
 ````javaScript
 $('.gl-slideshow').slideShow();
 ````
@@ -22,6 +20,8 @@ $('.gl-slideshow').slideShow();
   <div class="gl-slideshow__item" style="background-image:url('http://elitefon.ru/images/201211/elitefon.ru_8755.jpg')" data-src="http://elitefon.ru/images/201211/elitefon.ru_8755.jpg"></div>
 </div>
 ````
+[view demo](http://codepen.io/Zveromag/pen/QGqWoj)
+
 ##Options
 
 defaults values

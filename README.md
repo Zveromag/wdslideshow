@@ -19,7 +19,7 @@ new WDSlideShow();
   <img data-wdgal="group-1" data-src="https://wallpaperclicker.com/storage/wallpaper/beach-resorts-wallpaper-hd-95922400.jpg" src="https://wallpaperclicker.com/storage/wallpaper/beach-resorts-wallpaper-hd-95922400.jpg" alt="" width="50px" height="50px">
 </div>
 ````
-[view demo](http://codepen.io/Zveromag/pen/QGqWoj)
+[view demo](https://codepen.io/Zveromag/pen/aVmYeM)
 
 ## Options
 

@@ -1,40 +1,33 @@
-#WD SlideShow
+# WDSlideShow
 
-##Description
+## Description
 
 This plugin is a slide show that can be used in any project.
 
-##Initialization
+## Initialization
 
 ````javaScript
-$('.gl-slideshow').slideShow();
+new WDSlideShow();
 ````
 
-##Demo
+## Demo
 ````html
-<div class="gl-slideshow">
-  <div class="gl-slideshow__item" style="background-image:url('images/slide_1.jpg')" data-src="images/slide_1.jpg" data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in!"></div>
-  <div class="gl-slideshow__item" style="background-image:url('images/slide_2.jpg')" data-src="images/slide_2.jpg" data-desc=""></div>
-  <div class="gl-slideshow__item" style="background-image:url('images/slide_3.jpg')" data-src="images/slide_3.jpg"></div>
-  <div class="gl-slideshow__item" style="background-image:url('images/slide_4.jpg')" data-src="images/slide_4.jpg"></div>
-  <div class="gl-slideshow__item" style="background-image:url('images/slide_5.jpg')" data-src="images/slide_5.jpg"></div>
+<div class="wdslideshow">
+  <img data-wdgal="group-1" data-src="http://www.planwallpaper.com/static/images/880665-road-wallpapers.jpg" src="http://www.planwallpaper.com/static/images/880665-road-wallpapers.jpg" alt="" width="50px" height="50px">
+  <img data-wdgal="group-1" data-src="http://www.planwallpaper.com/static/images/city_of_love-wallpaper-1366x768.jpg" src="http://www.planwallpaper.com/static/images/city_of_love-wallpaper-1366x768.jpg" alt="" width="50px" height="50px">
+  <img data-wdgal="group-1" data-src="https://static.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg" src="https://static.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg" alt="" width="50px" height="50px">
+  <img data-wdgal="group-1" data-src="https://wallpaperclicker.com/storage/wallpaper/beach-resorts-wallpaper-hd-95922400.jpg" src="https://wallpaperclicker.com/storage/wallpaper/beach-resorts-wallpaper-hd-95922400.jpg" alt="" width="50px" height="50px">
 </div>
 ````
 [view demo](http://codepen.io/Zveromag/pen/QGqWoj)
 
-##Options
+## Options
 
 defaults values
 
 ````javaScript
-//it allows you to change the appearance of controls
-arrowRightIcon : 'image'
-arrowLeftIcon : 'image'
-closeIcon : 'image'
-
-//this parameter is responsible for the cyclical scrolling images in a slide show
-infinite : true
-
-//adds a description to slides data-desc=""
-imageDesc : true
+arrows: true, //show arrow
+caption: true, //show caption
+keyboard: true, //use keyboard controls
+onChange: function() {} //change slide event
 ````

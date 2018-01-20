@@ -1,0 +1,28 @@
+{
+  "name": "wdslideshow",
+  "version": "2.0.0",
+  "description": "TThis plugin is a slide show that can be used in any project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zveromag/wdslideshow"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zveromag/wdslideshow/issues"
+  },
+  "homepage": "hhttps://github.com/Zveromag/wdslideshow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
